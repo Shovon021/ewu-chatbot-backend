@@ -1,0 +1,25 @@
+Flask>=3.0.0
+flask-cors>=4.0.0
+
+# Text processing and utilities
+pypdf>=3.17.0
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+
+# Additional utilities
+numpy>=1.24.0
+pandas>=2.0.0
+colorama>=0.4.6
+
+# LLM and LangChain
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.23
+huggingface_hub>=0.20.0
+sentence-transformers>=2.5.0
+
+# Vector Store
+faiss-cpu>=1.8.0
+
+# Local LLM (Optional - not used in cloud)
+ollama>=0.1.6
